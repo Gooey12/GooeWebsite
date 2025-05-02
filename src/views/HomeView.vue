@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Breadcrumb from '../components/Breadcrumb.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Breadcrumb />
   </main>
 </template>
+
+<style>
+  body {
+    background-color: #92CC41;
+  }
+</style>
